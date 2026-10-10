@@ -1,0 +1,13 @@
+# First run: smallest model, default augmentation.
+# Values match the train_args stored in weights/yolov8n_baseline.pt
+model: yolov8n.pt
+epochs: 25
+imgsz: 640
+batch: 16
+patience: 100
+seed: 0
+hsv_s: 0.7
+scale: 0.5
+degrees: 0.0
+flipud: 0.0
+fliplr: 0.5

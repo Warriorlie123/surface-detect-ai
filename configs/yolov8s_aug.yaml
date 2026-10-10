@@ -1,0 +1,16 @@
+# Second run: 3.7x more parameters, longer schedule, extra geometric augmentation.
+# Steel strip defects have no "up" direction, so vertical flips and rotations
+# are label-preserving. Scale jitter was reduced because NEU crops are all
+# taken at the same magnification.
+# Values match the train_args stored in weights/yolov8s_aug.pt
+model: yolov8s.pt
+epochs: 75
+imgsz: 640
+batch: 16
+patience: 20
+seed: 0
+hsv_s: 0.5
+scale: 0.3
+degrees: 15.0
+flipud: 0.3
+fliplr: 0.5
