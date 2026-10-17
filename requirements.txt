@@ -1,4 +1,11 @@
+# CPU-only PyTorch wheels: much smaller, and what Streamlit Community Cloud needs.
+# If you have an NVIDIA GPU and want to train locally, install the CUDA build of
+# torch/torchvision from pytorch.org first; pip will then keep it.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
 ultralytics>=8.3,<9
+opencv-python-headless
 streamlit>=1.45
 pandas>=2.0
 pillow>=10.1
