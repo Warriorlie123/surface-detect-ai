@@ -4,6 +4,8 @@ A YOLOv8 detector for surface defects on hot-rolled steel strip, wrapped in a sm
 
 Trained on the NEU surface defect dataset (NEU-DET): 1,800 grayscale images, 200×200 px, six defect classes, 300 images each.
 
+**Try it online:** [surface-detect-ai.streamlit.app](https://surface-detect-ai.streamlit.app/) (free Streamlit Community Cloud; runs on a CPU, and if nobody has used it for a while it sleeps and takes about a minute to wake up).
+
 ![Batch inspection view](assets/app_batch.png)
 
 ## What it does
