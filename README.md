@@ -111,7 +111,7 @@ Exporting to ONNX roughly halves latency at no accuracy cost. Since the larger m
 ## Running it
 
 ```bash
-git clone https://github.com/Warriorlie123/surface-detect-ai.git
+git clone https://github.com/omerburhanc/surface-detect-ai.git
 cd surface-detect-ai
 pip install -r requirements.txt
 streamlit run app.py
